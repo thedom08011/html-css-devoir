@@ -1,0 +1,41 @@
+body{
+	width:1024px;
+	margin: 0 auto;
+	background-image: url(./img/bkgd_page.jpg);
+}
+/* header */
+header{
+	width:100%;
+	height:300px;
+	background-color:red;
+}
+#logo{
+	width: 200px;
+	height:100px;
+	background-color:pink;
+	margin:40px;
+	float:left;
+}
+/* menu */
+#menu{
+	width: 450px;
+	height:50px;
+	background-color:pink;
+	float:right;
+	margin:40px;
+}
+.mainMenu li{
+  display:inline;
+}
+.mainMenu a{
+	text-decoration:none;
+	margin:-2px;
+	padding:10px;
+}
+#menu-bis{
+  border:1px dotted black;
+  border-right:0px;
+}
+.presse{
+  border:1px dotted black;
+}
